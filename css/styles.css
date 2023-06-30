@@ -1,6 +1,7 @@
 /** COMMON */
 /* #region COMMON*/
 :root {
+   --social-active: #31d0aa;
   --page-color: #ffffff;
   --main-text: #2e2f42;
   --light-text: #f4f4fd;
@@ -276,6 +277,35 @@ body {
   background-size: 1440px;
   color: #ffffff;
 }
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--social-active);
+  cursor: pointer;
+}
+.social-list-link:hover.social-list-icon
+.social-list-link:focus.social-list-icon {
+  fill: var(--social-active);
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+.social-list-icon {
+  fill: #f4f4fd;
+}
 
 .item {
   width: calc((100% - 72px) / 4);
@@ -378,6 +408,11 @@ body {
 .link {
   text-decoration: none;
 }
+/* COSTUMER */
+
+
+
+
 
 /** FOOTER */
 .footer {
@@ -393,6 +428,12 @@ body {
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-social {
+  gap: 16px;
+  text-align: center;
+  
 }
 
 .button {
