@@ -247,19 +247,58 @@ body {
   gap: 24px;
   background-color: #ffffff;
 
-.social-list-link {
-  width: 40;
-  height: 40;
-  border-radius: 50%;
-  background-color: #4d5ae5;
+
+}
+.social-list-item {
+  width: 40px;
+  height: 40px;
   
 }
 
+.social-list-item:hover,
+.social-item:focus {
+  background-color: var(--social-active);
+  cursor: pointer;
+}
+
+.social-list-icon{
+  width: 16px;
+  height: 16px;
+  fill: var(--light-text);
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.social-list:hover,
+.social-list:focus {
+  background-color: var(--social-active);
+}
+  .social-list-item:hover,
+.social-list-item:focus {
+  background-color: var(--social-active);
+  cursor: pointer;
 }
 .item-team {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--page-color);
+   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .item-team-desc {
   padding: 32px 16px;
