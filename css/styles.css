@@ -484,6 +484,9 @@ body {
 
 /** FOOTER */
 .footer {
+   display: flex;
+  gap: 120px;
+  padding-left: 156px;
   padding: 100px 0;
   background: var(--main-text);
 }
