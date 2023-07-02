@@ -294,8 +294,8 @@ body {
   cursor: pointer;
 }
 .social-list-link:hover.social-list-icon
-  .social-list-link:focus.social-list-icon {
-  fill: var(--social-active);
+.social-list-link:focus.social-list-icon {
+  background-color: var(--action-color);
 }
 
 .social-list {
@@ -466,11 +466,13 @@ body {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
-  .custumers-link:hover,
+.custumers-link:hover,
 .custumers-link:focus {
   border-color: var(--action-color);
   color: var(--action-color);
+  
 }
+
 
 
 .custumers-icon {
