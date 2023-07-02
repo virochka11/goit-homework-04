@@ -484,7 +484,22 @@ body {
 }
 .section-subtitle {
 display: flex;
+font-weight: 500px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var( --page-color) ;
+margin-bottom: 16px;
+
+
 }
+.footer-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+.container-footer {
+  gap: 120px;
+}
+
 
 
 .button {
