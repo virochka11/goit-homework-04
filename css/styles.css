@@ -479,6 +479,10 @@ body {
   gap: 16px;
   text-align: center;
 }
+.section-subtitle {
+display: flex;
+}
+
 
 .button {
   margin: auto;
