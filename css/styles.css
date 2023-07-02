@@ -2,7 +2,7 @@
 /* #region COMMON*/
 :root {
   --social-active: #31d0aa;
-   --icon-customer-color: #8e8f99;
+  --icon-customer-color: #8e8f99;
   --page-color: #ffffff;
   --main-text: #2e2f42;
   --light-text: #f4f4fd;
@@ -288,25 +288,25 @@ body {
   border-radius: 50%;
   background-color: #4d5ae5;
 }
-.social-list-link:hover
+.social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--action-color);
   cursor: pointer;
 }
-.social-list-linke:hover
+
+.social-list-linke:hover,
 .social-list-linke:focus {
-  background-color: var(--social-active) ;
+  background-color: var(--social-active);
 }
 .social-list-linke {
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-   background-color: #4d5ae5;
+  background-color: #4d5ae5;
 }
-
 
 .social-list {
   display: flex;
@@ -390,30 +390,23 @@ body {
   letter-spacing: 0.02em;
 }
 .portfolio-link {
-  display: block; 
-
+  display: block;
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.portfolio-list-item:hover
-.portfolio-list-item:focus {
+.portfolio-list-item:hover .portfolio-list-item:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-
 }
-
 
 .container-porfolio-list {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
- 
-  
 }
-
 
 .portfolio-button {
   padding: 12px 24px;
@@ -434,7 +427,8 @@ body {
   border: 1px solid transparent;
   background-color: var(--action-color);
   color: var(--page-color);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .portfolio {
   padding-top: 96px;
@@ -443,11 +437,9 @@ body {
 
 .portfolio-list {
   list-style: none;
-  
 }
 .link {
   text-decoration: none;
-  
 }
 /* CUSTUMERS */
 .cusutumers-section {
@@ -455,7 +447,7 @@ body {
 }
 .custumers-list {
   display: flex;
-   align-items: center;
+  align-items: center;
   justify-content: center;
   gap: 24px;
 }
@@ -472,7 +464,7 @@ body {
   color: var(--icon-customer-color);
 }
 
-  .custumers-item {
+.custumers-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
@@ -480,10 +472,7 @@ body {
 .custumers-link:focus {
   border-color: var(--action-color);
   color: var(--action-color);
-  
 }
-
-
 
 .custumers-icon {
   fill: currentColor;
@@ -496,7 +485,7 @@ body {
 
 /** FOOTER */
 .footer {
-   display: flex;
+  display: flex;
   gap: 120px;
   padding-left: 156px;
   padding: 100px 0;
@@ -522,23 +511,17 @@ body {
   text-align: center;
 }
 .section-subtitle {
-display: flex;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var( --page-color) ;
-margin-bottom: 16px;
-
-
+  display: flex;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--page-color);
+  margin-bottom: 16px;
 }
 .footer-wrapper {
   display: flex;
   align-items: baseline;
-  
 }
-
-
-
 
 .button {
   margin: auto;
