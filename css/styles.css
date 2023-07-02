@@ -290,9 +290,23 @@ body {
 }
 .social-list-link:hover,
 .social-list-link:focus {
-  background-color: var(--social-active);
+  background-color: var(--action-color);
   cursor: pointer;
 }
+.social-list-linke:hover,
+.social-list-linke:focus {
+  background-color: var(--social-active) ;
+}
+.social-list-linke {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+   background-color: #4d5ae5;
+}
+
 
 .social-list {
   display: flex;
