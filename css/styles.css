@@ -286,18 +286,13 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: var(--accent-color);
+  background-color: #4d5ae5;
 }
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--social-active);
   cursor: pointer;
 }
-
-.social-item:hover,
-.social-item:focus {
-  background-color: var(--social-active);
-  cursor: pointer;}
 
 .social-list {
   display: flex;
