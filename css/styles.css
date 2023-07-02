@@ -490,6 +490,10 @@ body {
   padding: 100px 0;
   background: var(--main-text);
 }
+.container-footer {
+  width: 264px;
+  margin-right: 120px;
+}
 .footer-desc {
   width: 264px;
   line-height: 1.5;
