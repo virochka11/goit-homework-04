@@ -293,6 +293,9 @@ body {
   background-color: var(--action-color);
   cursor: pointer;
 }
+.social-list-item {
+  cursor: pointer;
+}
 
 .social-list-linke:hover,
 .social-list-linke:focus {
