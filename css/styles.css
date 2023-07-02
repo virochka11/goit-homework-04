@@ -290,12 +290,12 @@ body {
 }
 .social-list-link:hover,
 .social-list-link:focus {
-  background-color: var(--action-color);
+  background-color: var(--social-active);
   cursor: pointer;
 }
 .social-list-link:hover.social-list-icon
 .social-list-link:focus.social-list-icon {
-fill: var(--social-active);
+  background-color: var(--social-active);
 }
 
 .social-list {
