@@ -288,16 +288,21 @@ body {
   border-radius: 50%;
   background-color: #4d5ae5;
 }
+.social-list-item:hover
+.social-list-item:focus {
+  background-color: var(--action-color)
+
+}
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--action-color);
-  cursor: pointer;
 }
 
 .social-list-linke:hover,
 .social-list-linke:focus {
   background-color: var(--social-active);
 }
+
 
 .social-list-linke {
   display: flex;
